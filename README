@@ -1,6 +1,12 @@
 Catalyst-Plugin-EnvironmentDetector version 0.01
 ================================================
 
+A plugin to allow defining an arbitrary environment 
+keyword tied to hostname or environment variables and
+matching based on a regex pattern. Typical use would be
+to detect the difference between a 'test' and 'production'
+environment from within your Catalyst application. 
+
 INSTALLATION
 
 To install this module type the following:
